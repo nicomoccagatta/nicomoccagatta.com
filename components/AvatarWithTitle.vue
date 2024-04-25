@@ -1,6 +1,6 @@
 <template>
   <div class="img-container">
-    <img class="rounded-full" height="300" width="300" src="/img/nico.jpeg" alt="Mica" />
+    <img class="rounded-img" height="300" width="230" src="/img/nico.png" alt="Mica" />
   </div>
   <slot />
 </template>
@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
 }
-.rounded-full {
-  border-radius: 200px;
+.rounded-img {
+  border-radius: 20px;
 }
 </style>
