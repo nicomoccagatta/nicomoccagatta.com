@@ -1,8 +1,7 @@
 <template>
   <div class="index-container">
     <AvatarWithTitle>
-      <h1 class="index-header">👋 😄</h1>
-      <h1 class="index-header">Hello, I'm Nicolas Moccagatta</h1>
+      <h1 class="index-header">Hello, I'm Nicolas Moccagatta 👋 😄</h1>
 
       <div class="index-links-container">
         <a href="mailto:nicomoccagatta@gmail.com">
@@ -33,13 +32,16 @@
 
 <style scoped>
 .index-container {
-  display: block;
+  display: grid;
+  justify-items: center;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
   background: linear-gradient(270deg, rgba(255,0,0,0.5746673669467788) 0%, rgba(253,29,29,0.5298494397759104) 50%, rgba(14,120,223,0.5158438375350141) 100%);
   background-size: 600% 600%;
   animation: AnimatedBackground 3s ease infinite;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 @keyframes AnimatedBackground {
   0% { background-position: 0% 50% }
@@ -48,16 +50,15 @@
 }
 .index-header {
   text-align: center;
-  display: block;
+  font-size: 2em;
 }
 .index-links-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  display: grid;
+  justify-items: center;
+  grid-gap: 4px;
   margin: 10px 0;
 }
 .index-item {
-  display: block;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 </style>
