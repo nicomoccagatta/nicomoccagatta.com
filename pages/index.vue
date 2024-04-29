@@ -55,7 +55,7 @@
 .index-links-container {
   display: grid;
   justify-items: center;
-  grid-gap: 4px;
+  grid-gap: 8px;
   margin: 10px 0;
 }
 .index-item {

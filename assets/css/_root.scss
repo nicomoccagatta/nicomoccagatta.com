@@ -1,0 +1,31 @@
+:root {
+  @apply text-gray-800;
+}
+
+html {
+  @apply h-full;
+  font-size: 16px;
+
+  @screen md {
+    font-size: 18px;
+  }
+
+  @screen lg {
+    font-size: 20px;
+  }
+}
+
+body {
+  @apply h-full text-base font-normal text-gray-200 antialiased leading-relaxed;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+html,
+body {
+  @apply min-h-full;
+  background: theme('colors.body.primary');
+  background-image: linear-gradient(0deg, theme('colors.body.primary') 25%, theme('colors.body.secondary') 25%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
