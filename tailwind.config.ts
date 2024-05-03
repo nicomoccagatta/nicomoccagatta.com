@@ -7,12 +7,19 @@ export default {
       padding: '2rem',
     },
     extend: {
-      colors: {
-        body: {
-          primary: '#0c0e13',
-          secondary: '#0a0809',
+      keyframes: {
+        typing: {
+          "0%": { width: "0%", visibility: "hidden" },
+          "50%": { width: "100%" }
         },
+        blink: {
+          "50%": { borderColor: "transparent" },
+          "100%": { borderColor: "#60a5fa" }
+        }
       },
+      animation: {
+        typing: "typing 4s steps(20) infinite, blink .7s infinite"
+      }
     },
   },
   plugins: [],

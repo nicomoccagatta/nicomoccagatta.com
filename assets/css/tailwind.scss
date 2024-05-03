@@ -1,5 +1,7 @@
 @tailwind base;
-@import './root';
+@import './colors';
+@import './variables';
 
 @tailwind components;
 @tailwind utilities;
+@import './root';

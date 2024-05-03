@@ -1,7 +1,3 @@
-:root {
-  @apply text-gray-800;
-}
-
 html {
   @apply h-full;
   font-size: 16px;
@@ -24,8 +20,5 @@ body {
 html,
 body {
   @apply min-h-full;
-  background: theme('colors.body.primary');
-  background-image: linear-gradient(0deg, theme('colors.body.primary') 25%, theme('colors.body.secondary') 25%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: rgb(var(--ui-background) / var(--tw-bg-opacity));
 }

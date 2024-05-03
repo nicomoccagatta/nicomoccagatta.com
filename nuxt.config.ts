@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/seo', "@nuxtjs/tailwindcss"],
+  modules: ['@nuxtjs/seo', "@nuxtjs/tailwindcss", '@nuxtjs/color-mode'],
   site: {
     url: "https://nicomoccagatta.com/",
     name: "Nicolas Moccagatta's Personal Website",
