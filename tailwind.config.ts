@@ -2,6 +2,10 @@
 export default {
   content: ["./src/**/*.{vue,js,ts}"],
   theme: {
+    container: {
+      center: true,
+      padding: '2rem',
+    },
     extend: {
       colors: {
         body: {
