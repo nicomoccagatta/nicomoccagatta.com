@@ -1,2 +1,2 @@
 # nicomoccagatta.com
-Personal web page. Built for fun.
+Personal website. Built using Vue (Nuxt) & tailwind.
