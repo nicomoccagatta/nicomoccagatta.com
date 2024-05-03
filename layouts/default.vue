@@ -1,14 +1,7 @@
 <template>
   <div class="container">
-    <slot />
+    <div class="min-h-screen flex flex-col overflow-x-hidden">
+      <slot />
+    </div>
   </div>
 </template>
-
-<style scoped>
-.container {
-  display: flex;
-  justify-content: center;
-  max-width: 480px;
-  margin: auto;
-}
-</style>
