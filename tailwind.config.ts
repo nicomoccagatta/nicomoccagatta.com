@@ -13,7 +13,7 @@ export default {
           "50%": { width: "100%" }
         },
         blink: {
-          "50%": { borderColor: "transparent" },
+          "50%": { borderRightColor: "transparent" },
           "100%": { borderColor: "#60a5fa" }
         }
       },
