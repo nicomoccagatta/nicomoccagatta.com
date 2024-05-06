@@ -1,16 +1,14 @@
 <template>
   <div class="grid justify-items-center p-10 rounded-xl shadow-lg bg-gray-100/50 dark:bg-gray-800/50">
     <div class="block w-full lg:flex lg:justify-between">
-      <h1 class="text-left overflow-hidden text-2xl sm:text-4xl mb-4 lg:mb-0 text-gray-600 dark:text-gray-300">Hello, I'm
-        <span class="block max-w-fit text-blue-400 font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-b-4 border-blue-400 pt-2">
-          Nicolas Moccagatta
-        </span>
-      </h1>
+      <div class="grid content-baseline">
+        <h1 class="text-left overflow-hidden text-2xl sm:text-5xl text-gray-600 dark:text-gray-300">Hello, I'm
+          <span class="block max-w-fit text-blue-400 font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-b-4 border-blue-400 pt-2">
+            Nicolas Moccagatta
+          </span>
+        </h1>
 
-      <img class="rounded-xl lg:rounded-full border-blue-400 border-double border-8 w-full lg:w-48" src="/img/nico.png" alt="Nicolas" />
-
-      <div class="flex items-end">
-        <div class="grid grid-cols-1 gap-2 mb-0 mt-4 h-min lg:gap-2 lg:mt-0 lg:justify-items-end">
+        <div class="grid grid-cols-1 gap-2 mb-4 mt-4 h-min lg:gap-2">
           <a href="mailto:nicomoccagatta@gmail.com">
             <img src="https://camo.githubusercontent.com/9365691d4c42d3a0ad4f33627b887130c0405006239bb33f3543f6f278ad80eb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d6e69636f6d6f636361676174746140676d61696c2e636f6d2d6331343433383f7374796c653d666c61742d737175617265266c6f676f3d476d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d6d61696c746f3a6e69636f6d6f636361676174746140676d61696c2e636f6d" alt="Gmail Badge" data-canonical-src="https://img.shields.io/badge/-nicomoccagatta@gmail.com-c14438?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=mailto:nicomoccagatta@gmail.com" style="max-width: 100%;">
           </a>
@@ -23,6 +21,7 @@
         </div>
       </div>
 
+      <img class="rounded-xl lg:rounded-full border-blue-400 border-double border-8 w-full lg:w-48" src="/img/nico.png" alt="Nicolas" />
     </div>
 
     <span class="mt-4 text-lg text-justify tracking-tight text-gray-600 dark:text-gray-300">
