@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'dark', // fallback value if not system preference found
+    classSuffix: '',
+  },
   devtools: { enabled: true },
   modules: ['@nuxtjs/seo', "@nuxtjs/tailwindcss", '@nuxtjs/color-mode'],
   site: {

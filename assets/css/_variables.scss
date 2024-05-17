@@ -1,12 +1,12 @@
 :root {
-  --header-height: 4rem;
+  --header-height: 3rem;
   --tw-bg-opacity: 1;
 
-  --ui-background: 255 255 255;
-  --ui-foreground: var(--color-gray-700);
+  --ui-background: var(--color-gray-0);
+  --ui-foreground: var(--color-gray-900);
 }
 
-.dark-mode {
+.dark {
   --ui-background: var(--color-gray-900);
   --ui-foreground: var(--color-gray-200);
 }
