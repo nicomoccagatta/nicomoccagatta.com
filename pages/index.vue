@@ -9,13 +9,15 @@
         </h1>
 
         <p class="mt-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">I'm a seasoned Software Engineer with over 7 years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.</p>
-        <p class="mt-2 text-lg tracking-tight text-gray-600 dark:text-gray-300 max-sm:hidden">Holding a Bachelor's degree in Engineering from the University of Buenos Aires, where I majored in Computer Science, I've had the privilege of contributing to various projects across different companies, from startups to industry giants like Mercado Libre, Medallia, and PayPal.</p>
-        <div class="mt-8 mb-8">
-          <a class="focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-blue-400 hover:bg-blue-600 disabled:bg-blue-500 dark:bg-blue-400 dark:hover:bg-blue-500 dark:disabled:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 dark:focus-visible:outline-blue-400 inline-flex items-center" href="/home">
-            <span class="i-heroicons-rocket-launch icons-svg flex-shrink-0 h-5 w-5" aria-hidden="true" />
+        <p class="mt-2 mb-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">Holding a Bachelor's degree in Engineering from the University of Buenos Aires, where I majored in Computer Science, I've had the privilege of contributing to various projects across different companies, from startups to industry giants like Mercado Libre, Medallia, and PayPal.</p>
+
+        <!-- <div class="mt-8 mb-8 flex">
+          <button disabled class="select-none focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 font-medium rounded-md text-sm gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-blue-400 hover:bg-blue-600 disabled:bg-blue-500 dark:bg-blue-400 dark:hover:bg-blue-500 dark:disabled:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 dark:focus-visible:outline-blue-400 inline-flex items-center" href="/">
+            <span class="i-heroicons-rocket-launch icons-svg h-5 w-5" aria-hidden="true" />
             <span class="text-white dark:text-gray-900">Get started</span>
-          </a>
-        </div>
+          </button>
+        </div> -->
+
       </div>
 
       <img class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:w-72 lg:h-96" src="/img/nico.png" alt="Nicolas" />
