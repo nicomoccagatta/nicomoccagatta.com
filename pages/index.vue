@@ -1,5 +1,5 @@
 <template>
-  <div class="grid justify-items-center p-10 rounded-xl shadow-lg bg-gray-100/50 dark:bg-gray-800/50">
+  <div class="grid justify-items-center p-5 lg:p-10 rounded-xl shadow-lg bg-gray-200/50 dark:bg-gray-800/50 my-5">
     <div class="block w-full lg:flex lg:justify-between">
       <div class="grid content-baseline">
         <h1 class="text-left overflow-hidden text-2xl sm:text-5xl text-gray-600 dark:text-gray-300">Hello, I'm
@@ -21,21 +21,12 @@
         </div>
       </div>
 
-      <img class="rounded-xl lg:rounded-full border-blue-400 border-double border-8 w-full lg:w-48" src="/img/nico.png" alt="Nicolas" />
+      <img class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:w-48" src="/img/nico.png" alt="Nicolas" />
     </div>
 
     <span class="mt-4 text-lg text-justify tracking-tight text-gray-600 dark:text-gray-300">
       I'm a seasoned Software Engineer with over 7 years of experience in Full Stack Software Development, specializing in Frontend Web Technologies. Holding a Bachelor's degree in Engineering from the University of Buenos Aires, where I majored in Computer Science, I've had the privilege of contributing to various projects across different companies, from startups to industry giants like Mercado Libre, Medallia, and PayPal.
     </span>
 
-    <span class="mt-4 text-lg text-justify tracking-tight text-gray-600 dark:text-gray-300">
-      Throughout my career, I've developed a deep understanding of crafting user-centric experiences using technologies such as React, Node, TypeScript, Redux, GraphQL, and more... My involvement spans the entire software development lifecycle, from Discovery and Analysis to Design, Implementation, Testing, Deployment, Monitoring and Maintenance. This comprehensive perspective ensures that I'm not only able to deliver solutions that meet user needs but also contribute effectively to the long-term success of projects.
-    </span>
-
-    <span class="mt-4 text-lg text-justify tracking-tight text-gray-600 dark:text-gray-300">
-      <Dummy>
-        While I take pride in my experience and skills, I remain committed to continuous learning and improvement. I'm eager to bring my expertise to a top tech company where I can collaborate with like-minded individuals and tackle new challenges that push the boundaries of innovation.
-      </Dummy>
-    </span>
   </div>
 </template>

@@ -28,8 +28,9 @@ useHeadSafe({
 </script>
 
 <template>
+  <Header />
   <div class="container">
-    <div class="min-h-screen flex flex-col overflow-x-hidden py-5">
+    <div class="min-h-max flex flex-col overflow-x-hidden">
       <slot />
     </div>
   </div>
