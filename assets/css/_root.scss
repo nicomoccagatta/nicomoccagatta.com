@@ -22,3 +22,10 @@ body {
   @apply min-h-full;
   background: rgb(var(--ui-background) / var(--tw-bg-opacity));
 }
+
+.icons-svg {
+  background-color: currentColor;
+  mask-image: var(--svg);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}

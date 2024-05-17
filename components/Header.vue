@@ -10,8 +10,8 @@ const setColorMode = (color: 'light' | 'dark') => {
   <header class="bg-background/75 backdrop-blur border-b border-gray-200 dark:border-gray-800">
     <div class="container mx-auto flex items-center justify-between gap-3 h-[--header-height]">
       <a aria-current="page" href="/" class="router-link-active router-link-exact-active flex-shrink-0 font-bold text-xl text-gray-900 dark:text-white flex gap-2.5 items-center" aria-label="Logo">
-        <img class="rounded-full border-blue-400 border-2 h-9" src="/img/nico.png" alt="Nicolas" />
-        <span>Nicolas Moccagatta</span>
+        <img class="hidden rounded-full border-blue-400 border-2 h-9" src="/img/nico.png" alt="Nicolas" />
+        <span class="hidden">Nicolas Moccagatta</span>
       </a>
 
       <div class="flex items-center justify-end lg:flex-1 gap-1.5">
@@ -23,7 +23,7 @@ const setColorMode = (color: 'light' | 'dark') => {
           v-if="$colorMode.preference !== 'light'"
         >
           <span
-            class="i-heroicons-moon-20-solid header-icons flex-shrink-0 h-4 w-4"
+            class="i-heroicons-moon-20-solid icons-svg flex-shrink-0 h-4 w-4"
             aria-hidden="true"
           />
         </button>
@@ -36,7 +36,7 @@ const setColorMode = (color: 'light' | 'dark') => {
           v-if="$colorMode.preference === 'light'"
         >
           <span
-            class="i-heroicons-sun-20-solid header-icons flex-shrink-0 h-4 w-4"
+            class="i-heroicons-sun-20-solid icons-svg flex-shrink-0 h-4 w-4"
             aria-hidden="true"
           />
         </button>
@@ -49,21 +49,21 @@ const setColorMode = (color: 'light' | 'dark') => {
           target="_blank"
         >
           <span
-            class="i-simple-icons-github header-icons flex-shrink-0 h-4 w-4"
+            class="i-simple-icons-github icons-svg flex-shrink-0 h-4 w-4"
             aria-hidden="true"
           />
         </a>
 
-        <button
+        <!-- <button
           type="button"
           class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center lg:hidden"
           aria-label="Open Menu"
         >
           <span
-            class="i-heroicons-bars-3-20-solid header-icons flex-shrink-0 h-4 w-4"
+            class="i-heroicons-bars-3-20-solid icons-svg flex-shrink-0 h-4 w-4"
             aria-hidden="true"
           />
-        </button>
+        </button> -->
       </div>
     </div>
   </header>
@@ -86,10 +86,4 @@ const setColorMode = (color: 'light' | 'dark') => {
   --svg: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath fill-rule='evenodd' d='M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75M2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10m0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75' clip-rule='evenodd'/%3E%3C/svg%3E");
 }
 
-.header-icons {
-  background-color: currentColor;
-  mask-image: var(--svg);
-  mask-repeat: no-repeat;
-  mask-size: 100% 100%;
-}
 </style>
