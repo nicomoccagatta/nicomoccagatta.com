@@ -8,7 +8,7 @@
           </span>
         </h1>
 
-        <p class="mt-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">I'm a seasoned Software Engineer with over 7 years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.</p>
+        <p class="mt-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">I'm a seasoned Software Engineer with over {{ new Date().getFullYear() - 2017 }} years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.</p>
         <p class="mt-2 mb-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">Holding a Bachelor's degree in Engineering from the University of Buenos Aires, where I majored in Computer Science, I've had the privilege of contributing to various projects across different companies, from startups to industry giants like Mercado Libre, Medallia, and PayPal.</p>
 
         <!-- <div class="mt-8 mb-8 flex">

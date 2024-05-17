@@ -29,9 +29,10 @@ useHeadSafe({
 
 <template>
   <Header />
-  <div class="container">
+  <div class="container min-h-[calc(100vh-var(--header-height)*2)]">
     <div class="min-h-max flex flex-col overflow-x-hidden">
       <slot />
     </div>
   </div>
+  <Footer />
 </template>
