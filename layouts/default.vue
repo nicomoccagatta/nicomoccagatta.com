@@ -17,13 +17,6 @@ useHeadSafe({
   htmlAttrs: {
     lang: "en"
   },
-  link: [
-    {
-      href: "/favicon.ico",
-      rel: "icon",
-      type: "image/x-icon",
-    },
-  ],
 });
 </script>
 
