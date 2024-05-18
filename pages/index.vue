@@ -20,7 +20,7 @@
 
       </div>
 
-      <img class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:w-72 lg:h-96" src="/img/nico.png" alt="Nicolas" />
+      <NuxtImg placeholder class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:min-w-72 lg:h-96" src="/img/nico.png" alt="Nicolas" />
     </div>
   </div>
 </template>
