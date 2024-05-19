@@ -7,8 +7,8 @@ const setColorMode = (color: 'light' | 'dark') => {
 </script>
 
 <template>
-  <header class="backdrop-blur border-b border-gray-200 dark:border-gray-800">
-    <div class="container mx-auto flex items-center justify-between gap-3 h-[--header-height]">
+  <header class="sticky top-0 z-50 -mb-px w-full backdrop-blur-md border-b border-slate-900/10 dark:border-slate-50/[0.06] bg-white dark:bg-slate-900/75 h-[--header-height]">
+    <div class="container mx-auto flex items-center justify-between gap-3 h-full">
       <a aria-current="page" href="/" class="router-link-active router-link-exact-active flex-shrink-0 font-bold text-xl text-gray-900 dark:text-white flex gap-2.5 items-center" aria-label="Logo">
         <img class="hidden rounded-full border-blue-400 border-2 h-9" src="/img/nico.png" alt="Nicolas" />
         <span class="hidden">Nicolas Moccagatta</span>
