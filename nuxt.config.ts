@@ -6,7 +6,11 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/seo', "@nuxtjs/tailwindcss", '@nuxtjs/color-mode', "@nuxt/image"],
+  modules: [
+    '@nuxtjs/seo',
+    "@nuxt/image",
+    "@nuxt/ui"
+  ],
   site: {
     url: "https://nicomoccagatta.com",
     name: "Nicolas Moccagatta's Personal Website",
