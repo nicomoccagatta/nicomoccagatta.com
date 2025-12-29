@@ -62,6 +62,18 @@ watch(currentLang, (lang: Language) => {
     }
   ])
 }, { immediate: true })
+
+// Cloudflare Web Analytics
+useHead({
+  script: [
+    {
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      defer: true,
+      'data-cf-beacon': '{"token": "76191d31f794454f88546dcda163e859"}',
+      tagPosition: 'bodyClose'
+    }
+  ]
+})
 </script>
 
 <template>
