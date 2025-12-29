@@ -1,15 +1,20 @@
+<script lang="ts" setup>
+const { t } = useTranslation()
+const yearsOfExperience = computed(() => new Date().getFullYear() - 2017)
+</script>
+
 <template>
   <section class="grid justify-items-center p-5 lg:p-10 rounded-xl shadow-lg bg-gray-200/50 dark:bg-gray-800/50 my-5">
     <article class="block w-full lg:flex lg:justify-between">
       <div class="grid content-baseline lg:mr-10">
-        <h1 class="text-left overflow-hidden text-3xl lg:text-5xl text-gray-600 dark:text-gray-300">Hello, I'm
+        <h1 class="text-left overflow-hidden text-3xl lg:text-5xl text-gray-600 dark:text-gray-300">{{ t('home.greeting') }}
           <span class="block max-w-fit text-blue-400 font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-b-4 border-blue-400 pt-2">
-            Nicolas Moccagatta
+            {{ t('home.name') }}
           </span>
         </h1>
 
-        <p class="mt-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">I'm a seasoned Software Engineer with over {{ new Date().getFullYear() - 2017 }} years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.</p>
-        <p class="mt-2 mb-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">Holding a Bachelor's degree in Engineering from the University of Buenos Aires, where I majored in Computer Science, I've had the privilege of contributing to various projects across different companies, from startups to industry giants like Mercado Libre, Medallia, and PayPal.</p>
+        <p class="mt-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">{{ t('home.intro', { years: yearsOfExperience }) }}</p>
+        <p class="mt-2 mb-6 text-lg tracking-tight text-gray-600 dark:text-gray-300">{{ t('home.bio') }}</p>
 
         <!-- <div class="mb-8 lg:m-0 flex">
           <button class="select-none focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 font-medium rounded-xl text-sm gap-x-1.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-blue-400 hover:bg-blue-600 disabled:bg-blue-500 dark:bg-blue-400 dark:hover:bg-blue-500 dark:disabled:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 dark:focus-visible:outline-blue-400 inline-flex items-center" href="/">
@@ -20,7 +25,7 @@
 
       </div>
 
-      <NuxtImg placeholder format="webp" class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:min-w-72 lg:h-96" src="/img/nico.png" :alt="`Nicolas Moccagatta - Full Stack Software Engineer with ${new Date().getFullYear() - 2017}+ years of experience specializing in Frontend Web Technologies`" />
+      <NuxtImg placeholder format="webp" class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:min-w-72 lg:h-96" src="/img/nico.png" :alt="t('home.imageAlt', { years: yearsOfExperience })" />
     </article>
   </section>
 </template>
