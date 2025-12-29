@@ -1,6 +1,6 @@
 <template>
-  <div class="grid justify-items-center p-5 lg:p-10 rounded-xl shadow-lg bg-gray-200/50 dark:bg-gray-800/50 my-5">
-    <div class="block w-full lg:flex lg:justify-between">
+  <section class="grid justify-items-center p-5 lg:p-10 rounded-xl shadow-lg bg-gray-200/50 dark:bg-gray-800/50 my-5">
+    <article class="block w-full lg:flex lg:justify-between">
       <div class="grid content-baseline lg:mr-10">
         <h1 class="text-left overflow-hidden text-3xl lg:text-5xl text-gray-600 dark:text-gray-300">Hello, I'm
           <span class="block max-w-fit text-blue-400 font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-b-4 border-blue-400 pt-2">
@@ -20,9 +20,9 @@
 
       </div>
 
-      <NuxtImg placeholder format="webp" class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:min-w-72 lg:h-96" src="/img/nico.png" alt="Nicolas" />
-    </div>
-  </div>
+      <NuxtImg placeholder format="webp" class="rounded-xl lg:rounded-full border-blue-400 border-8 w-full lg:min-w-72 lg:h-96" src="/img/nico.png" :alt="`Nicolas Moccagatta - Full Stack Software Engineer with ${new Date().getFullYear() - 2017}+ years of experience specializing in Frontend Web Technologies`" />
+    </article>
+  </section>
 </template>
 
 <style scoped>
