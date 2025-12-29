@@ -45,7 +45,7 @@ export const useTranslation = () => {
         greeting: 'Hola, soy',
         name: 'Nicolas Moccagatta',
         intro: 'Soy un Ingeniero de Software experimentado con más de {years} años de experiencia en Desarrollo de Software Full Stack, especializado en Tecnologías Web Frontend.',
-        bio: 'Con un título de Licenciado en Ingeniería de la Universidad de Buenos Aires, donde me especialicé en Ciencias de la Computación, he tenido el privilegio de contribuir a varios proyectos en diferentes empresas, desde startups hasta gigantes de la industria como Mercado Libre, Medallia y PayPal.',
+        bio: 'Con un título de Ingeniero en Informática de la Universidad de Buenos Aires, he tenido el privilegio de contribuir a varios proyectos en diferentes empresas, desde startups hasta gigantes de la industria como Mercado Libre, Medallia y PayPal.',
         imageAlt: 'Nicolas Moccagatta - Ingeniero de Software Full Stack con {years}+ años de experiencia especializado en Tecnologías Web Frontend',
       },
       footer: {
