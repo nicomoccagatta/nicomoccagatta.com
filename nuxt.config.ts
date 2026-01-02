@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const yearsOfExperience = new Date().getFullYear() - 2017;
+
 export default defineNuxtConfig({
   colorMode: {
     preference: 'system', // default value of $colorMode.preference
@@ -14,7 +16,7 @@ export default defineNuxtConfig({
   site: {
     url: "https://nicomoccagatta.com",
     name: "Nicolas Moccagatta's Personal Website",
-    description: "Hello, I'm Nicolas Moccagatta! I'm a seasoned Software Engineer with over 7 years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.",
+    description: `Hello, I'm Nicolas Moccagatta! I'm a seasoned Software Engineer with over ${yearsOfExperience} years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.`,
     defaultLocale: "en_US",
   },
   tailwindcss: {
