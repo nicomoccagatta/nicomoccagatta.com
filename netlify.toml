@@ -1,0 +1,10 @@
+# Static deploy. `nuxt generate` prerenders the site to `.output/public`.
+# NITRO_PRESET=static avoids Nitro auto-selecting the `netlify-legacy`
+# serverless preset, which crashes under `generate`
+# (ENOENT .netlify/functions-internal/server/server.json).
+[build]
+  command = "npm run generate"
+  publish = ".output/public"
+
+[build.environment]
+  NITRO_PRESET = "static"
