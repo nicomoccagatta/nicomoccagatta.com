@@ -25,3 +25,6 @@ logs
 
 # VSCode settings
 .vscode
+
+# AI
+.claude

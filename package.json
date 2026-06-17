@@ -2,6 +2,9 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -12,8 +15,8 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.16.0",
-    "@nuxtjs/seo": "^2.0.0-rc.10",
-    "nuxt": "^3.11.2",
+    "@nuxtjs/seo": "^3.4.0",
+    "nuxt": "^3.21.8",
     "sass": "^1.75.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

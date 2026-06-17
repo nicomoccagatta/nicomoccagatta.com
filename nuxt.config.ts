@@ -19,6 +19,10 @@ export default defineNuxtConfig({
     description: `Hello, I'm Nicolas Moccagatta! I'm a seasoned Software Engineer with over ${yearsOfExperience} years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.`,
     defaultLocale: "en_US",
   },
+  // Dynamic OG image generation is unused (a static ogImage URL is set in the
+  // layout). Disabled to avoid bundling nuxt-og-image, which references a unenv
+  // path removed in the version Nitro now ships.
+  ogImage: { enabled: false },
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.scss',
   },

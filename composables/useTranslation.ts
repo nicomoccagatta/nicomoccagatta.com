@@ -21,6 +21,8 @@ export const useTranslation = () => {
         intro: "I'm a seasoned Software Engineer with over {years} years of experience in Full Stack Software Development, specializing in Frontend Web Technologies.",
         bio: "Holding a Bachelor's degree in Engineering from the University of Buenos Aires, where I majored in Computer Science, I've had the privilege of contributing to various projects across different companies, from startups to industry giants like Mercado Libre, Medallia, and PayPal.",
         imageAlt: 'Nicolas Moccagatta - Full Stack Software Engineer with {years}+ years of experience specializing in Frontend Web Technologies',
+        getInTouch: 'Get in touch',
+        emailSubject: "Let's talk",
       },
       footer: {
         license: 'MIT License',
@@ -47,6 +49,8 @@ export const useTranslation = () => {
         intro: 'Soy un Ingeniero de Software experimentado con más de {years} años de experiencia en Desarrollo de Software Full Stack, especializado en Tecnologías Web Frontend.',
         bio: 'Con un título de Ingeniero en Informática de la Universidad de Buenos Aires, he tenido el privilegio de contribuir a varios proyectos en diferentes empresas, desde startups hasta gigantes de la industria como Mercado Libre, Medallia y PayPal.',
         imageAlt: 'Nicolas Moccagatta - Ingeniero de Software Full Stack con {years}+ años de experiencia especializado en Tecnologías Web Frontend',
+        getInTouch: 'Contactame',
+        emailSubject: 'Hablemos',
       },
       footer: {
         license: 'Licencia MIT',

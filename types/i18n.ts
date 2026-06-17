@@ -20,6 +20,8 @@ export type TranslationKey =
   | 'home.intro'
   | 'home.bio'
   | 'home.imageAlt'
+  | 'home.getInTouch'
+  | 'home.emailSubject'
   | 'footer.license'
   | 'seo.title'
   | 'seo.description'

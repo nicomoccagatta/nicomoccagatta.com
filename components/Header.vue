@@ -98,17 +98,6 @@ const setColorMode = (color: 'light' | 'dark') => {
             aria-hidden="true"
           />
         </a>
-
-        <!-- <button
-          type="button"
-          class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center lg:hidden"
-          aria-label="Open Menu"
-        >
-          <span
-            class="i-heroicons-bars-3-20-solid icons-svg flex-shrink-0 h-4 w-4"
-            aria-hidden="true"
-          />
-        </button> -->
       </div>
     </div>
   </header>
@@ -134,13 +123,4 @@ const setColorMode = (color: 'light' | 'dark') => {
 .i-simple-icons-linkedin {
   --svg: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z'/%3E%3C/svg%3E");
 }
-
-.i-heroicons-bars-3-20-solid {
-  --svg: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath fill-rule='evenodd' d='M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75M2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10m0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75' clip-rule='evenodd'/%3E%3C/svg%3E");
-}
-
-.i-heroicons-language-20-solid {
-  --svg: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath fill-rule='evenodd' d='M7.75 1.5a.75.75 0 0 0-1.5 0v1.634a49.67 49.67 0 0 0-3.84.337.75.75 0 0 0 .28 1.473c1.235-.238 2.536-.401 3.896-.484.213 2.037.577 3.868 1.052 5.394a35.82 35.82 0 0 1-1.674 3.314c-.305.478-.54.825-.72 1.061a.75.75 0 1 0 1.192.91c.207-.27.486-.68.832-1.22a37.3 37.3 0 0 0 1.733-3.394c.49 1.526.854 3.357 1.067 5.394 1.36.083 2.66.246 3.896.484a.75.75 0 0 0 .28-1.473 48.13 48.13 0 0 0-3.84-.337V1.5Zm2.25 6.5h3a.75.75 0 0 1 0 1.5h-3v3h2.25a.75.75 0 0 1 0 1.5H10v1.25a.75.75 0 0 1-1.5 0V14H6.25a.75.75 0 0 1 0-1.5H8.5v-3h-3a.75.75 0 0 1 0-1.5h3V7.134c-.427-.09-.858-.17-1.293-.238-.68 2.103-1.61 3.946-2.63 5.394-.145.227-.295.453-.448.674A.75.75 0 0 1 2.92 12.4c.137-.2.27-.41.396-.627.96-1.364 1.81-3.01 2.42-4.773H5.5a.75.75 0 0 1 0-1.5h.736c.065-.22.132-.437.2-.651A48.14 48.14 0 0 1 7.75 3.134V8Z' clip-rule='evenodd'/%3E%3C/svg%3E");
-}
-
 </style>
